@@ -1,0 +1,263 @@
+.home--Pc {
+  display: block;
+}
+.home--Mb {
+  display: none;
+}
+.home--center--Pc {
+  display: flex;
+  margin: 0 auto;
+  width: 1030px;
+  justify-content: center;
+  height: 375px;
+  position: relative;
+  top: 0px;
+  margin-top: 15%;
+}
+.home--banner--Pc {
+  width: 540px;
+  height: 385px;
+}
+img.w-100 {
+  width: 100%;
+}
+img.icon--game--Pc {
+  margin-top: -5%;
+}
+.home--games--Pc {
+  width: 540px;
+  height: 385px;
+  position: relative;
+}
+img.icon--goubgames--Pc {
+  width: 290px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  top: 0%;
+}
+.home--icon--game--Pc {
+  left: 50%;
+  transform: translate(-50%, 0%);
+  position: absolute;
+  top: 15%;
+  width: 63%;
+}
+img.icon--game--2Pc {
+  margin-left: 24%;
+}
+img.icon--gameall--Pc {
+  position: absolute;
+  top: 25%;
+  left: 31%;
+}
+
+.home--footter--Pc {
+  display: flex;
+  margin: 0 auto;
+  width: 1030px;
+  justify-content: center;
+  height: 250px;
+  position: relative;
+}
+img.icon--gamehot--Pc {
+  width: 100%;
+}
+.icon--text--pc {
+  width: 28%;
+  position: absolute;
+  top: 5%;
+}
+img.games--Pc {
+  width: 126px;
+}
+.icon--gameall--pc {
+  position: absolute;
+  top: 35%;
+}
+@media screen and (max-width: 1030px) {
+  .home--center--Pc {
+    width: 800px;
+  }
+  .home--icon--game--Pc {
+    width: 75%;
+    top: 10%;
+  }
+  .home--footter--Pc {
+    width: 800px;
+  }
+  img.games--Pc {
+    width: 90px;
+  }
+  img.icon--goubgames--Pc {
+    width: 220px;
+  }
+  img.icon--game--Pc {
+    width: 38%;
+  }
+  img.icon--game--2Pc {
+    width: 38%;
+  }
+
+  img.icon--gameall--Pc {
+    width: 38%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .home--center--Pc {
+    width: 600px;
+    height: 225px;
+  }
+  .home--icon--game--Pc {
+    width: 70%;
+  }
+  img.icon--goubgames--Pc {
+    width: 185px;
+  }
+  .home--footter--Pc {
+    width: 600px;
+    height: 150px;
+  }
+  img.games--Pc {
+    width: 75px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .home--center--Pc {
+    width: 480px;
+    height: 195px;
+  }
+  .home--footter--Pc {
+    width: 480px;
+  }
+  img.games--Pc {
+    width: 65px;
+  }
+}
+@media screen and (max-width: 480px) {
+    .home--Pc {
+        display: none;
+      }
+      .home--Mb {
+        display: block;
+      } 
+      .home--section--Mb {
+        margin: 0 auto;
+        width: 400px;
+        position: relative;
+        top: 0;
+        margin-top: 25%;
+    }
+    img.Bgtext--show--Mb {
+        width: 100%;
+      }
+      .text--show--Mb {
+        width: 100%;
+        margin-top: 45%;
+    }
+    img.Bgtext--show--Mb {
+        width: 97%;
+        top: 1px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+    img.closetext--show--Mb {
+        width: 5%;
+        position: absolute;
+        right: 0%;
+        top: 0;
+    }
+    .home--banner--Mb {
+        width: 100%;
+    }
+    .banner--box--Mb {
+        width: 100%;
+        margin-top: 5%;
+    }
+    img.line--Mb {
+        width: 100%;
+    }
+    .home--line--Mb {
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+    img.homegames--Mb {
+        width: 100%;
+    }
+    .home--games--Mb {
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 3%;
+    }
+    img.icon--game--Mb {
+        width: 35%;
+        margin-left: 5%;
+    }
+    img.icon--game--2Mb {
+        width: 35%;
+        position: absolute;
+        right: 0;
+        margin-right: 5%;
+    }
+    img.icon--gameall--Mb {
+        width: 35%;
+        position: absolute;
+        left: 50%;
+        transform: translate(-75%, -26%);
+    }
+    .home--gameall--Mb {
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 3%;
+    }
+    img.gameall--Mb {
+        width: 100%;
+    }
+    img.games--Mb {
+        width: 25%;
+        margin-left: 2%;
+    }
+    .icon--gameall--Mb {
+        padding-bottom: 50%;
+        width: 100%;
+        margin-left: 9%;
+        margin-top: 3%;
+    }
+    .text--tab--mb {
+        position: absolute;
+        top: 0;
+        width: 85%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        margin-top: 4%;
+        color: #ffff;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 440px) {
+    .home--section--Mb {
+        width: 340px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .home--section--Mb {
+        width: 305px;
+    }
+    .text--tab--mb {
+        font-size: 8px;
+    }
+}
+@media screen and (max-width: 325px) {
+    .home--section--Mb {
+        width: 260px;
+    }
+    
+}
+@media screen and (max-width: 280px) {
+    .home--section--Mb {
+        width: 220px;
+    }
+    
+}
