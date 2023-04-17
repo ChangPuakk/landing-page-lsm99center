@@ -45,12 +45,12 @@
     background-color: #fff0;
   }
   .nav-link {
-    color: #ffff;
+    color: #979ea5;
   }
   .nav-tabs .nav-item.show .nav-link,
   .nav-tabs .nav-link.active {
     background-color: #ff000000;
-    color: #eeaf4a;
+    color: #ffffff;
   }
   .nav {
     --bs-nav-link-hover-color: #ffff;
@@ -115,13 +115,14 @@
     width: 370px;
     margin: 0 auto;
     position: relative;
-    top: 150px;
+    top: -52px;
 }
 
 .text--box--mbP {
     width: 370px;
     margin: 0 auto;
     position: relative;
+    top: -51px;
 }
 img.Bgtext--show--MbP {
     width: 97%;
@@ -134,7 +135,7 @@ img.Bgtext--show--MbP {
     width: 100%;
     height: 55px;
     position: relative;
-    top: 170px;
+    top: 0px;
 }
 .text--tab--mbP {
     position: absolute;
@@ -151,6 +152,7 @@ img.closetext--show--MbP {
     position: absolute;
     right: 0%;
     top: 0;
+    z-index: 20;
 }
 .Promotion--Mb ul.nav.nav-tabs {
     justify-content: space-around;
@@ -176,25 +178,21 @@ img.closetext--show--MbP {
 @media screen and (max-width: 400px){
     .table--games--PC {
         width: 300px;
-        top: 130px;
     }
     .text--box--mbP {
         width: 300px;
+        top: -35px;
     }
     .Promotion--Mb ul.nav.nav-tabs {
         font-size: 10px;
         width: 96%;
         top: 14px;
     }
-    .text--show--MbP {
-        top: 144px;
-    }
     
 }
 @media screen and (max-width: 320px){
     .table--games--PC {
         width: 230px;
-        top: 95px;
     }
     .text--box--mbP {
         width: 230px;
@@ -207,8 +205,5 @@ img.closetext--show--MbP {
     img.Bg--Tab--TextP {
         width: 100%;
         height: 87px;
-    }
-    .text--show--MbP {
-        top: 115px;
     }
 }

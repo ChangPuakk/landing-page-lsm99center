@@ -145,15 +145,15 @@ img.games--Pc {
         margin: 0 auto;
         width: 400px;
         position: relative;
-        top: 0;
-        margin-top: 25%;
+        top: -35px;
+        margin-top: 0%;
     }
     img.Bgtext--show--Mb {
         width: 100%;
       }
       .text--show--Mb {
         width: 100%;
-        margin-top: 45%;
+        margin-top: 0%;
     }
     img.Bgtext--show--Mb {
         width: 97%;
@@ -163,10 +163,12 @@ img.games--Pc {
         transform: translate(-50%, 0%);
     }
     img.closetext--show--Mb {
-        width: 5%;
-        position: absolute;
-        right: 0%;
-        top: 0;
+      width: 5%;
+      position: absolute;
+      right: 0%;
+      top: 0;
+      z-index: 20;
+  
     }
     .home--banner--Mb {
         width: 100%;
@@ -236,10 +238,20 @@ img.games--Pc {
         font-size: 10px;
     }
 }
+@media screen and (max-width: 447px) {
+  .home--section--Mb {
+      width: 375px;
+  }
+}
 @media screen and (max-width: 440px) {
     .home--section--Mb {
         width: 340px;
     }
+}
+@media screen and (max-width: 399px) {
+  .home--section--Mb {
+      width: 308px;
+  }
 }
 @media screen and (max-width: 360px) {
     .home--section--Mb {
@@ -248,6 +260,12 @@ img.games--Pc {
     .text--tab--mb {
         font-size: 8px;
     }
+}
+@media screen and (max-width: 350px) {
+  .home--section--Mb {
+      width: 277px;
+  }
+
 }
 @media screen and (max-width: 325px) {
     .home--section--Mb {

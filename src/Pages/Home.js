@@ -37,7 +37,8 @@ import iconline from "../Images/Mb/ImgMb3.png";
 
 export default function Home() {
   const [closeMarquee, setCloseMarquee] = useState(true);
-  const [linkLogin, setLinkLogin] = useState("https://game.lsm99king.bet");
+  const [linkLogin, setLinkLogin] = useState("https://game.lsm99center.com");
+  const [linelink, setLineLink] = useState("https://line.me/R/ti/p/@344iyomr");
   return (
     <>
       <div>
@@ -206,7 +207,7 @@ export default function Home() {
                 </div>
                 </div>
                 <div className="home--line--Mb">
-                <a href={linkLogin}><img src={iconline} alt="" className="line--Mb"></img></a>
+                <a href={linelink}><img src={iconline} alt="" className="line--Mb"></img></a>
               </div>
               <div className="home--games--Mb">
               <a href={linkLogin}><img src={icongoubgames} alt="" className="homegames--Mb"></img></a>

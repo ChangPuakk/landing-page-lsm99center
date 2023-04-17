@@ -55,6 +55,7 @@ export default function Header() {
   const [linkRegister, setRegister] = useState(
     "https://game.lsm99center.com/register"
   );
+  const [linelink, setLineLink] = useState("https://line.me/R/ti/p/@344iyomr");
 
   const [show, setShow] = useState(false);
   const [showNofi, setShowNofi] = useState(false);
@@ -121,7 +122,7 @@ export default function Header() {
                 </div>
 
                 <div className="icon--Noti--Pc">
-                  <a href={linkLogin}>
+                  <a href={linelink}>
                     <img
                       src={IconlinePc}
                       alt=""
@@ -150,7 +151,7 @@ export default function Header() {
                       className="Icon--login--Pc"
                     ></img>
                   </a>
-                  <a href={linkLogin}>
+                  <a href={linkRegister}>
                     <img
                       src={IconregisterPc}
                       alt=""
@@ -190,7 +191,7 @@ export default function Header() {
                       className="Icon--login--Mb"
                     ></img>
                   </a>
-                  <a href={linkLogin}>
+                  <a href={linkRegister}>
                     <img
                       src={IconregisterMb}
                       alt=""

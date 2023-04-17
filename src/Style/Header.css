@@ -1,12 +1,11 @@
 .wrapper.wrapper--bg {
   background: url("/src/Images/Pc/ImgPc23.png") no-repeat;
-  background-size: cover;
   height: 100vh;
   max-width: 100%;
   background-position: center;
   position: fixed;
   width: 100%;
-  overflow-y: auto;
+  background-repeat: repeat;
 }
 
 @font-face {
@@ -199,7 +198,7 @@ img.Icon--close--nofi {
   margin-right: 1%;
 }
 .menu {
-  width: 1100px;
+  width: 690px;
     margin: 0 auto;
     position: relative;
 }
@@ -263,7 +262,22 @@ h2.textnoti {
   font-size: 20px;
 }
 .menu {
-  width: 800px;
+  width: 500px;
+}
+}
+@media screen and (max-width: 1100px) {
+  img.tx--1 {
+    width: 30%;
+}
+.MBButton--tx1 {
+  left: 57%;
+  margin-top: 8%;
+}
+.MBButton--tx2 {
+  left: 57%;
+}
+.MBButton--tx3 {
+  left: 57%;
 }
 }
 @media screen and (max-width: 800px) {
@@ -271,7 +285,7 @@ h2.textnoti {
     width: 600px;
 }
 .menu {
-  width: 600px;
+  width: 375px;
 }
 h2.textnoti {
   font-size: 25px;
@@ -279,13 +293,23 @@ h2.textnoti {
 .games.mb-2.col-12 {
   font-size: 15px;
 }
+.MBButton--tx1 {
+  left: 56%;
+  margin-top: 8%;
+}
+.MBButton--tx2 {
+  left: 56%;
+}
+.MBButton--tx3 {
+  left: 56%;
+}
 }
 @media screen and (max-width: 600px) {
   .wrapper--section--nofi {
     width: 480px;
 }
 .menu {
-  width: 480px;
+  width: 310px;
 }
 h2.textnoti {
   font-size: 22px;
@@ -309,14 +333,25 @@ img.tx--1 {
   .header--Mb {
     display: block;
   }
-  img.Bg--header--Mb {
+
+  .wrapper.wrapper--bg {
+    background: url("/src/Images/Pc/ImgPc30.png") no-repeat;
+    height: 100vh;
+    max-width: 100%;
+    background-position: center;
     position: fixed;
+    width: 100%;
+    background-size: cover;
+  }
+
+  img.Bg--header--Mb {
+    position: relative;
     width: 100%;
     top: 0%;
     z-index: 10;
 }
 img.Icon--Lsm--Mb {
-  position: fixed;
+  position: absolute;
   width: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -325,7 +360,7 @@ img.Icon--Lsm--Mb {
   top: 0;
 }
 .icon--Noti--Mb {
-  position: fixed;
+  position: absolute;
   right: 0%;
   width: 15%;
   margin-top: 4%;
@@ -342,7 +377,7 @@ img.Icon--tabbar--Mb {
   margin: 2%;
 }
 img.Icon--login--Mb {
-  position: fixed;
+  position: absolute;
   top: 0%;
   margin-top: 13%;
   width: 33%;
@@ -350,7 +385,7 @@ img.Icon--login--Mb {
   z-index: 10;
 }
 img.Icon--register--Mb {
-  position: fixed;
+  position: absolute;
   right: 0%;
   top: 0%;
   margin-top: 13%;
@@ -366,7 +401,7 @@ img.Bg--footter--Mb {
 }
 .icon--Games--Mb {
   position: fixed;
-  bottom: 0%;
+  bottom: -25px;
   left: 50%;
   transform: translate(-50%, 0%);
   width: 90%;
@@ -377,7 +412,7 @@ img.Icongames--Mb {
 }
 img.Icon--Play--Mb {
   width: 32%;
-  margin-bottom: 2%;
+  margin-bottom: 11%;
 }
 .wrapper--section--nofi {
   width: 400px;
@@ -396,11 +431,41 @@ img.Icon--close--nofi {
 img.Icon--close--Menu {
   width: 6%;
 }
+
+img.tx--2 {
+  width: 45%;
+}
+img.tx--3 {
+  width: 45%;
+}
+img.tx--1 {
+  width: 45%;
+}
+.MBButton--tx1 {
+  width: 100%;
+  left: 50%;
+}
+.MBButton--tx2 {
+  width: 100%;
+  left: 50%;
+}
+.MBButton--tx3 {
+  width: 100%;
+  left: 50%;
+}
+img.tx--2 {
+  margin: 0px;
+  width: 140%;
+  margin-left: -17%;
+}
 }
 @media screen and (max-width: 400px){
   .wrapper--section--nofi {
     width: 350px;
   }
+  img.tx--1 {
+    width: 44%;
+}
   .menu {
     width: 350px;
   }
@@ -415,6 +480,9 @@ img.Icon--close--nofi {
 }
 img.tx--1 {
   margin: 9px;
+}
+.icon--Games--Mb {
+  bottom: -20px;
 }
 }
 @media screen and (max-width: 350px){
@@ -434,6 +502,9 @@ h2.textnoti {
 img.tx--1 {
   margin: 8px;
 }
+.icon--Games--Mb {
+  bottom: -18px;
+}
 }
 @media screen and (max-width: 300px){
   .wrapper--section--nofi {
@@ -450,5 +521,16 @@ h2.textnoti {
 }
 img.tx--1 {
   margin: 6px;
+}
+.icon--Games--Mb {
+  bottom: -16px;
+}
+}
+@media screen and (max-width: 250px){
+.icon--Games--Mb {
+  bottom: -13px;
+}
+.home--section--Mb {
+  margin-top: 5%;
 }
 }
