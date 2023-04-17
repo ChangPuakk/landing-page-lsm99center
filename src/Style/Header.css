@@ -6,6 +6,7 @@
   position: fixed;
   width: 100%;
   background-repeat: repeat;
+  overflow-y: auto;
 }
 
 @font-face {
@@ -339,9 +340,9 @@ img.tx--1 {
     height: 100vh;
     max-width: 100%;
     background-position: center;
-    position: fixed;
     width: 100%;
     background-size: cover;
+    overflow-y: auto;
   }
 
   img.Bg--header--Mb {
