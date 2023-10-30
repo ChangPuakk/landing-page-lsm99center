@@ -1,5 +1,5 @@
 .wrapper.wrapper--bg {
-  background: url("/src/Images/Pc/ImgPc23.png") no-repeat;
+  background: url("/src/Images/Pc/ImgPc23-.png") no-repeat;
   height: 100vh;
   max-width: 100%;
   background-position: center;
@@ -7,6 +7,7 @@
   width: 100%;
   background-repeat: repeat;
   overflow-y: auto;
+  background-size: 100% 100%;
 }
 
 @font-face {
@@ -336,12 +337,12 @@ img.tx--1 {
   }
 
   .wrapper.wrapper--bg {
-    background: url("/src/Images/Pc/ImgPc30.png") no-repeat;
+    background: url("/src/Images/Pc/ImgPc30-.png") no-repeat;
     height: 100vh;
     max-width: 100%;
     background-position: center;
     width: 100%;
-    background-size: cover;
+    background-size: 100% 100%;
     overflow-y: auto;
   }
 

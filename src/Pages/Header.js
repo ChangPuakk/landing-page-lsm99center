@@ -6,7 +6,7 @@ import { Container, Row, Col, Tab, Tabs } from "react-bootstrap";
 
 import BgheaderPc from "../Images/Pc/ImgPc24.png";
 import BgiconPc from "../Images/Pc/ImgPc25.png";
-import IconLsmPc from "../Images/Pc/ImgPc6.png";
+import IconLsmPc from "../Images/Pc/ImgPc6.gif";
 
 import IconwalletPc from "../Images/Pc/ImgPc7.png";
 import IcondepositPc from "../Images/Pc/ImgPc8.png";
@@ -23,7 +23,7 @@ import IconregisterPc from "../Images/Pc/ImgPc5.png";
 
 /*mobie */
 import BgheaderMb from "../Images/Mb/ImgMb21.png";
-import IconLsmMb from "../Images/Mb/ImgMb6.png";
+import IconLsmMb from "../Images/Mb/ImgMb6-.gif";
 import BgfootterMb from "../Images/Mb/ImgMb22.png";
 
 import IconwalletMb from "../Images/Mb/ImgMb7.png";
