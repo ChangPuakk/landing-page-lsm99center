@@ -6,7 +6,7 @@ import { Container, Row, Col, Tab, Tabs } from "react-bootstrap";
 
 import BgheaderPc from "../Images/Pc/ImgPc24.png";
 import BgiconPc from "../Images/Pc/ImgPc25.png";
-import IconLsmPc from "../Images/Pc/ImgPc6.gif";
+import IconLsmPc from "../Images/Pc/ImgPc6.png";
 
 import IconwalletPc from "../Images/Pc/ImgPc7.png";
 import IcondepositPc from "../Images/Pc/ImgPc8.png";
