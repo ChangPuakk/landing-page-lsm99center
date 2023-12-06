@@ -1,6 +1,6 @@
 .wrapper.wrapper--bg {
-  /* background: url("/src/Images/Pc/ImgPc23.png") no-repeat; */
-  background: url("/src/Images/Pc/center-desktop.png") no-repeat;
+  background: url("/src/Images/Pc/ImgPc23.png") no-repeat;
+  /* background: url("/src/Images/Pc/center-desktop.png") no-repeat; */
   height: 100vh;
   max-width: 100%;
   background-position: center;
@@ -338,8 +338,8 @@ img.tx--1 {
   }
 
   .wrapper.wrapper--bg {
-    /* background: url("/src/Images/Pc/ImgPc30.png") no-repeat; */
-    background: url("/src/Images/Pc/center-mobile.png") no-repeat;
+    background: url("/src/Images/Pc/ImgPc30.png") no-repeat;
+    /* background: url("/src/Images/Pc/center-mobile.png") no-repeat; */
     height: 100vh;
     max-width: 100%;
     background-position: center;
