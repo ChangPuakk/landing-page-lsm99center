@@ -6,9 +6,9 @@ import { Container, Row, Col, Tab, Tabs } from "react-bootstrap";
 
 import BgheaderPc from "../Images/Pc/ImgPc24.png";
 import BgiconPc from "../Images/Pc/ImgPc25.png";
-import IconLsmPc from "../Images/Pc/ImgPc6.png";
+// import IconLsmPc from "../Images/Pc/ImgPc6.png";
 // เทศกาล
-// import IconLsmPc from "../Images/Pc/center.gif";
+import IconLsmPc from "../Images/Pc/center.gif";
 
 import IconwalletPc from "../Images/Pc/ImgPc7.png";
 import IcondepositPc from "../Images/Pc/ImgPc8.png";
@@ -25,9 +25,9 @@ import IconregisterPc from "../Images/Pc/ImgPc5.png";
 
 /*mobie */
 import BgheaderMb from "../Images/Mb/ImgMb21.png";
-import IconLsmMb from "../Images/Mb/ImgMb6.png";
+// import IconLsmMb from "../Images/Mb/ImgMb6.png";
 // เทศกาล
-// import IconLsmMb from "../Images/Mb/center.gif";
+import IconLsmMb from "../Images/Mb/center.gif";
 import BgfootterMb from "../Images/Mb/ImgMb22.png";
 
 import IconwalletMb from "../Images/Mb/ImgMb7.png";
@@ -261,7 +261,7 @@ export default function Header() {
 
               <div className="wrapper--menu--nofi">
                 <div className="text--noti">
-                <img src={tx8} alt=""  className="Icon--close--nofi" onClick={handleCloseNofi} />
+                  <img src={tx8} alt="" className="Icon--close--nofi" onClick={handleCloseNofi} />
                   <h2 className="textnoti">แจ้งเตือน</h2>
                 </div>
                 <div className="wrapper--section--nofi">
@@ -311,42 +311,42 @@ export default function Header() {
             <Modal show={show} onHide={handleClose} className="showmenu--modal">
               <div className="wrapper--menu">
                 <div className="Close--menu--Pc">
-                  <img src={tx8} alt="" className="Icon--close--Menu"onClick={handleClose}/>
+                  <img src={tx8} alt="" className="Icon--close--Menu" onClick={handleClose} />
                 </div>
                 <div className="wrapper--section-">
                   <div>
                     <div className="menu">
-                    <div className="MBButton--tx1">
-                    <a href={linkLogin}>
-                      <img src={tx1} alt="" className="tx--1"></img>
-                    </a>
-                    <a href={linkLogin}>
-                      <img src={tx2} alt="" className="tx--1"></img>
-                    </a>
-                  </div>
+                      <div className="MBButton--tx1">
+                        <a href={linkLogin}>
+                          <img src={tx1} alt="" className="tx--1"></img>
+                        </a>
+                        <a href={linkLogin}>
+                          <img src={tx2} alt="" className="tx--1"></img>
+                        </a>
+                      </div>
 
-                  <div className="MBButton--tx2">
-                  <a href={linkLogin}>
-                      <img src={tx3} alt="" className="tx--1"></img>
-                    </a>
-                    <a href="Promotion/">
-                      <img src={tx4} alt="" className="tx--1"></img>
-                    </a>
-                  </div>
+                      <div className="MBButton--tx2">
+                        <a href={linkLogin}>
+                          <img src={tx3} alt="" className="tx--1"></img>
+                        </a>
+                        <a href="Promotion/">
+                          <img src={tx4} alt="" className="tx--1"></img>
+                        </a>
+                      </div>
 
-                  <div className="MBButton--tx3">
-                  <a href={linkLogin}>
-                      <img src={tx5} alt="" className="tx--1"></img>
-                    </a>
-                    <a href={linkLogin}>
-                      <img src={tx6} alt="" className="tx--1"></img>
-                    </a>
-                  </div>
-                  <div className="MBButton--tx4">
-                  <a href={linkLogin}>
-                      <img src={tx7} alt="" className="tx--2"></img>
-                    </a>
-                  </div>
+                      <div className="MBButton--tx3">
+                        <a href={linkLogin}>
+                          <img src={tx5} alt="" className="tx--1"></img>
+                        </a>
+                        <a href={linkLogin}>
+                          <img src={tx6} alt="" className="tx--1"></img>
+                        </a>
+                      </div>
+                      <div className="MBButton--tx4">
+                        <a href={linkLogin}>
+                          <img src={tx7} alt="" className="tx--2"></img>
+                        </a>
+                      </div>
                       <div className="text--bg--menu">
 
                       </div>
