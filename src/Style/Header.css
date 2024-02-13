@@ -1,5 +1,5 @@
 .wrapper.wrapper--bg {
-  background: url("/src/Images/Pc/center-desktop.png") no-repeat;
+  background: url("/src/Images/Pc/center-desktop-valentine.png") no-repeat;
   /* background: url("/src/Images/Pc/center-desktop.png") no-repeat; */
   height: 100vh;
   max-width: 100%;
@@ -393,7 +393,7 @@ img.Icon--close--Menu {
   }
 
   .wrapper.wrapper--bg {
-    background: url("/src/Images/Pc/center-mobile.png") no-repeat;
+    background: url("/src/Images/Mb/center-mobile-valentine.png") no-repeat;
     /* background: url("/src/Images/Pc/center-mobile.png") no-repeat; */
     height: 100vh;
     max-width: 100%;
