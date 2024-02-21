@@ -6,7 +6,7 @@ import { Container, Row, Col, Tab, Tabs } from "react-bootstrap";
 
 import BgheaderPc from "../Images/Pc/ImgPc24.png";
 import BgiconPc from "../Images/Pc/ImgPc25.png";
-import IconLsmPc from "../Images/Pc/Center-valentine.gif";
+import IconLsmPc from "../Images/Pc/ImgPc6.png";
 // เทศกาล
 // import IconLsmPc from "../Images/Pc/center.gif";
 
@@ -25,7 +25,7 @@ import IconregisterPc from "../Images/Pc/ImgPc5.png";
 
 /*mobie */
 import BgheaderMb from "../Images/Mb/ImgMb21.png";
-import IconLsmMb from "../Images/Pc/Center-valentine.gif";
+import IconLsmMb from "../Images/Pc/ImgPc6.png";
 // เทศกาล
 // import IconLsmMb from "../Images/Mb/center.gif";
 import BgfootterMb from "../Images/Mb/ImgMb22.png";
