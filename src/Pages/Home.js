@@ -91,14 +91,14 @@ export default function Home() {
                   </Splide>
                 </div>
                 <div className="home--games--Pc">
-                <a href={linkLogin}><img
+                  <a href={linkLogin}><img
                     src={icongoubgames}
                     alt=""
                     className="icon--goubgames--Pc"
                   ></img></a>
                   <div className="home--icon--game--Pc">
                     <div>
-                    <a href={linkLogin}><img
+                      <a href={linkLogin}><img
                         src={iconslot}
                         alt=""
                         className="icon--game--Pc"
@@ -115,7 +115,7 @@ export default function Home() {
                       className="icon--gameall--Pc"
                     ></img></a>
                     <div>
-                    <a href={linkLogin}><img
+                      <a href={linkLogin}><img
                         src={iconcasino}
                         alt=""
                         className="icon--game--Pc"
@@ -127,7 +127,7 @@ export default function Home() {
                       ></img></a>
                     </div>
                   </div>
-                </div>               
+                </div>
               </div>
               <div className="home--footter--Pc">
                 <div className="icon--text--pc">
@@ -148,88 +148,88 @@ export default function Home() {
           </div>
           <div className="home--Mb">
             <div className="home--section--Mb">
-            {closeMarquee === true ? (
+              {closeMarquee === true ? (
                 <>
-                <div className="text--show--Mb">
-                  <img src={Bgtextshow} alt="" className="Bgtext--show--Mb"></img>
-                  <img src={closetextshow} alt="" className="closetext--show--Mb"onClick={() => setCloseMarquee(false)} ></img>
-                  <div className="text--tab--mb">
-                    <marquee scrollamount="6">
-                    เมื่ออยากหาอะไรสนุกๆเล่นแก้เบื่อ ให้นึกถึงเรา LSM99CENTER เว็บพนันออนไลน์ที่มีทั้งเกมส์ กีฬา คาสิโน หวย พร้อมด้วยโปรโมชั่นที่รองรับการเล่นของสมาชิกทุกชนิด บริการรวดเร็วทันใจด้วยระบบ Auto แอดมินบริการ 24 ชั่วโมง ติดปัญหาส่วนใดเเจ้งน้องแอดมินได้ตลอดเลยนะคะ
-                    </marquee>
-                  </div>
+                  <div className="text--show--Mb">
+                    <img src={Bgtextshow} alt="" className="Bgtext--show--Mb"></img>
+                    <img src={closetextshow} alt="" className="closetext--show--Mb" onClick={() => setCloseMarquee(false)} ></img>
+                    <div className="text--tab--mb">
+                      <marquee scrollamount="6">
+                        เมื่ออยากหาอะไรสนุกๆเล่นแก้เบื่อ ให้นึกถึงเรา LSM99CENTER เว็บพนันออนไลน์ที่มีทั้งเกมส์ กีฬา คาสิโน หวย พร้อมด้วยโปรโมชั่นที่รองรับการเล่นของสมาชิกทุกชนิด บริการรวดเร็วทันใจด้วยระบบ Auto แอดมินบริการ 24 ชั่วโมง ติดปัญหาส่วนใดเเจ้งน้องแอดมินได้ตลอดเลยนะคะ
+                      </marquee>
+                    </div>
                   </div>
                 </>
               ) : null}
-                <div className="banner--box--Mb">
+              <div className="banner--box--Mb">
                 <div className="home--banner--Mb">
                   <Splide
-                      className="slide"
-                      options={{
-                        rewind: false,
-                        gap: "10px",
-                        type: "loop",
-                        autoplay: true,
-                        arrows: false,
-                      }}
-                    >
-                      <SplideSlide>
-                        <a href={linkLogin}>
-                          <img src={BannerPro1} alt="" className="w-100" />
-                        </a>
-                      </SplideSlide>
-                      <SplideSlide>
-                        <a href={linkLogin}>
-                          <img src={BannerPro2} alt="" className="w-100" />
-                        </a>
-                      </SplideSlide>
-                      <SplideSlide>
-                        <a href={linkLogin}>
-                          <img src={BannerPro3} alt="" className="w-100" />
-                        </a>
-                      </SplideSlide>
-                      <SplideSlide>
-                        <a href={linkLogin}>
-                          <img src={BannerPro4} alt="" className="w-100" />
-                        </a>
-                      </SplideSlide>
-                      <SplideSlide>
-                        <a href={linkLogin}>
-                          <img src={BannerPro5} alt="" className="w-100" />
-                        </a>
-                      </SplideSlide>
-                      <SplideSlide>
-                        <a href={linkLogin}>
-                          <img src={BannerPro6} alt="" className="w-100" />
-                        </a>
-                      </SplideSlide>
-                    </Splide>
+                    className="slide"
+                    options={{
+                      rewind: false,
+                      gap: "10px",
+                      type: "loop",
+                      autoplay: true,
+                      arrows: false,
+                    }}
+                  >
+                    <SplideSlide>
+                      <a href={linkLogin}>
+                        <img src={BannerPro1} alt="" className="w-100" />
+                      </a>
+                    </SplideSlide>
+                    <SplideSlide>
+                      <a href={linkLogin}>
+                        <img src={BannerPro2} alt="" className="w-100" />
+                      </a>
+                    </SplideSlide>
+                    <SplideSlide>
+                      <a href={linkLogin}>
+                        <img src={BannerPro3} alt="" className="w-100" />
+                      </a>
+                    </SplideSlide>
+                    <SplideSlide>
+                      <a href={linkLogin}>
+                        <img src={BannerPro4} alt="" className="w-100" />
+                      </a>
+                    </SplideSlide>
+                    <SplideSlide>
+                      <a href={linkLogin}>
+                        <img src={BannerPro5} alt="" className="w-100" />
+                      </a>
+                    </SplideSlide>
+                    <SplideSlide>
+                      <a href={linkLogin}>
+                        <img src={BannerPro6} alt="" className="w-100" />
+                      </a>
+                    </SplideSlide>
+                  </Splide>
                 </div>
-                </div>
-                <div className="home--line--Mb">
-                <a href={linelink}><img src={iconline} alt="" className="line--Mb"></img></a>
+              </div>
+              <div className="home--line--Mb">
+                {/* <a href={linelink}><img src={iconline} alt="" className="line--Mb"></img></a> */}
               </div>
               <div className="home--games--Mb">
-              <a href={linkLogin}><img src={icongoubgames} alt="" className="homegames--Mb"></img></a>
+                <a href={linkLogin}><img src={icongoubgames} alt="" className="homegames--Mb"></img></a>
               </div>
               <div className="icon--games--Mb">
-                <div> 
-                <a href={linkLogin}><img src={iconslot} alt="" className="icon--game--Mb"></img></a>
-                <a href={linkLogin}><img src={iconsport} alt="" className="icon--game--2Mb"></img></a>
+                <div>
+                  <a href={linkLogin}><img src={iconslot} alt="" className="icon--game--Mb"></img></a>
+                  <a href={linkLogin}><img src={iconsport} alt="" className="icon--game--2Mb"></img></a>
                 </div>
                 <a href={linkLogin}><img src={iconallgame} alt="" className="icon--gameall--Mb"></img></a>
                 <div>
-                <a href={linkLogin}><img src={iconcasino} alt="" className="icon--game--Mb"></img></a>
-                <a href={linkLogin}><img src={iconloto} alt="" className="icon--game--2Mb"></img></a>
+                  <a href={linkLogin}><img src={iconcasino} alt="" className="icon--game--Mb"></img></a>
+                  <a href={linkLogin}><img src={iconloto} alt="" className="icon--game--2Mb"></img></a>
                 </div>
               </div>
               <div className="home--gameall--Mb">
-              <a href={linkLogin}><img src={icongamehot} alt="" className="gameall--Mb"></img></a>
-              </div>    
+                <a href={linkLogin}><img src={icongamehot} alt="" className="gameall--Mb"></img></a>
+              </div>
               <div className="icon--gameall--Mb">
-              <a href={linkLogin}><img src={game1} alt="" className="games--Mb"></img></a>
-              <a href={linkLogin}><img src={game2} alt="" className="games--Mb"></img></a>
-              <a href={linkLogin}><img src={game3} alt="" className="games--Mb"></img></a>
+                <a href={linkLogin}><img src={game1} alt="" className="games--Mb"></img></a>
+                <a href={linkLogin}><img src={game2} alt="" className="games--Mb"></img></a>
+                <a href={linkLogin}><img src={game3} alt="" className="games--Mb"></img></a>
               </div>
             </div>
           </div>
