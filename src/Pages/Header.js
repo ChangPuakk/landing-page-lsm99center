@@ -126,13 +126,13 @@ export default function Header() {
                 </div>
 
                 <div className="icon--Noti--Pc">
-                  {/* <a href={linelink}>
+                  <a href={linelink}>
                     <img
                       src={IconlinePc}
                       alt=""
                       className="Icon--line--Pc"
                     ></img>
-                  </a> */}
+                  </a>
 
                   <img
                     src={IconnotifriPc}

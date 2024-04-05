@@ -207,7 +207,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="home--line--Mb">
-                {/* <a href={linelink}><img src={iconline} alt="" className="line--Mb"></img></a> */}
+                <a href={linelink}><img src={iconline} alt="" className="line--Mb"></img></a>
               </div>
               <div className="home--games--Mb">
                 <a href={linkLogin}><img src={icongoubgames} alt="" className="homegames--Mb"></img></a>
