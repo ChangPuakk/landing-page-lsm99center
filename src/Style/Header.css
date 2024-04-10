@@ -43,7 +43,7 @@ img.Icon--Lsm--Pc {
   transform: translate(-50%, -50%);
   top: 3%;
   margin-top: 2.5%;
-  width: 20%;
+  width: 14%;
   z-index: 15;
 }
 
@@ -412,7 +412,7 @@ img.Icon--close--Menu {
 
   img.Icon--Lsm--Mb {
     position: absolute;
-    width: 52%;
+    width: 38% !important;
     left: 50%;
     transform: translate(-50%, -50%);
     margin-top: 12%;
