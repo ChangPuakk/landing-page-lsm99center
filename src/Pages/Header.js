@@ -155,13 +155,13 @@ export default function Header() {
                       className="Icon--login--Pc"
                     ></img>
                   </a>
-                  {/* <a href={linkRegister} >
+                  <a href={linkRegister} >
                     <img
                       src={IconregisterPc}
                       alt=""
                       className="Icon--register--Pc"
                     ></img>
-                  </a> */}
+                  </a>
                 </div>
               </div>
             </div>
@@ -195,13 +195,13 @@ export default function Header() {
                       className="Icon--login--Mb"
                     ></img>
                   </a>
-                  {/* <a href={linkRegister}>
+                  <a href={linkRegister}>
                     <img
                       src={IconregisterMb}
                       alt=""
                       className="Icon--register--Mb"
                     ></img>
-                  </a> */}
+                  </a>
                 </div>
               </div>
               <div className="header--footter--Mb">
