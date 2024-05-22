@@ -56,143 +56,143 @@ export default function Promotion() {
             <div className="promotion--PC">
               <div className="table--games--PC">
                 <Row>
-                  <img src={protabp} alt="" className="Bg--Tab--Text" />
+                  <img src={"https://fs.cdnxn.com/landingCenter/Images/Promotion/protab.png"} alt="" className="Bg--Tab--Text" />
                   <Tabs defaultActiveKey="tab-1">
                     <Tab eventKey="tab-1" title="ทั้งหมด">
                       <Row>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro01} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/1.jpg"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro02} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/2.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro03} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/3.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro04} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/4.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro05} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/5.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro06} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/6.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro07} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/7.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro08} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/8.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro09} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/9.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro010} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/10.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro011} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/casino/1.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro012} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/casino/2.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro013} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/casino/3.jpg"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro014} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/casino/4.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro015} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/casino/5.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro016} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/casino/6.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro020} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/1.jpg"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro021} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/2.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro022} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/3.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro023} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/4.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro024} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/5.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro025} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/6.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro026} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/7.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro027} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/8.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro028} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/9.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro029} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/10.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro030} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/1.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                       </Row>
@@ -201,52 +201,52 @@ export default function Promotion() {
                       <Row>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro01} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/1.jpg"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro02} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/2.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro03} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/3.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro04} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/4.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro05} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/5.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro06} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/6.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro07} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/7.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro08} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/8.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro09} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/9.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro010} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/10.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                       </Row>
@@ -255,32 +255,32 @@ export default function Promotion() {
                       <Row>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro011} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/casino/1.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro012} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/casino/2.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro013} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/casino/3.jpg"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro014} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/casino/4.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro015} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/casino/5.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro016} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/casino/6.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                       </Row>
@@ -289,52 +289,52 @@ export default function Promotion() {
                       <Row>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro020} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/1.jpg"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro021} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/2.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro022} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/3.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro023} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/4.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro024} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/5.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro025} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/6.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro026} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/7.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro027} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/8.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro028} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/9.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro029} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/10.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                       </Row>
@@ -343,7 +343,7 @@ export default function Promotion() {
                       <Row>
                         <Col md={6} xs={6} className="games PC-2">
                           <a href={linkLogin}>
-                            <img src={BannerPro030} alt="" className="w-100" />
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/1.png"} alt="" className="w-100" />
                           </a>
                         </Col>
                       </Row>
@@ -355,17 +355,17 @@ export default function Promotion() {
             </div>
 
             <div className="Promotion--Mb">
-                <div className="text--box--mbP">
+              <div className="text--box--mbP">
                 {closeMarquee === true ? (
                   <>
                     <div className="text--show--MbP">
                       <img
-                        src={Bgtextshow}
+                        src={"https://fs.cdnxn.com/landingCenter/Images/Mb/ImgMb28.png"}
                         alt=""
                         className="Bgtext--show--MbP"
                       ></img>
                       <img
-                        src={closetextshow}
+                        src={"https://fs.cdnxn.com/landingCenter/Images/Mb/ImgMb27.png"}
                         alt=""
                         className="closetext--show--MbP"
                         onClick={() => setCloseMarquee(false)}
@@ -382,304 +382,304 @@ export default function Promotion() {
                     </div>
                   </>
                 ) : null}
-                </div>
-            
-              <div className="table--games--PC">             
-              <Row>
-                <img src={protabp1} alt="" className="Bg--Tab--TextP" />
-                <Tabs defaultActiveKey="tab-1">
-                  <Tab eventKey="tab-1" title="ทั้งหมด">
-                    <Row>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro01} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro02} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro03} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro04} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro05} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro06} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro07} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro08} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro09} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro010} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro011} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro012} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro013} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro014} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro015} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro016} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro020} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro021} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro022} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro023} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro024} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro025} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro026} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro027} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro028} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro029} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro030} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                    </Row>
-                  </Tab>
-                  <Tab eventKey="tab-2" title="กีฬา">
-                    <Row>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro01} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro02} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro03} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro04} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro05} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro06} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro07} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro08} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro09} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro010} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                    </Row>
-                  </Tab>
-                  <Tab eventKey="tab-3" title="คาสิโน">
-                    <Row>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro011} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro012} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro013} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro014} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro015} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro016} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                    </Row>
-                  </Tab>
-                  <Tab eventKey="tab-4" title="สล๊อต">
-                    <Row>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro020} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro021} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro022} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro023} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro024} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro025} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro026} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro027} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro028} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro029} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                    </Row>
-                  </Tab>
-                  <Tab eventKey="tab-5" title="หวย">
-                    <Row>
-                      <Col md={12} className="games Mb-2">
-                        <a href={linkLogin}>
-                          <img src={BannerPro030} alt="" className="w-100" />
-                        </a>
-                      </Col>
-                    </Row>
-                  </Tab>
-                </Tabs>
-              </Row>
+              </div>
+
+              <div className="table--games--PC">
+                <Row>
+                  <img src={"https://fs.cdnxn.com/landingCenter/Images/Promotion/protab1.png"} alt="" className="Bg--Tab--TextP" />
+                  <Tabs defaultActiveKey="tab-1">
+                    <Tab eventKey="tab-1" title="ทั้งหมด">
+                      <Row>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/1.jpg"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/2.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/3.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/4.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/5.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/6.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/7.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/8.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/9.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/10.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/casino/1.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/casino/2.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/casino/3.jpg"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/casino/4.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/casino/5.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/casino/6.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/1.jpg"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/2.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/3.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/4.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/5.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/6.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/7.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/8.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/9.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/10.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/1.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                      </Row>
+                    </Tab>
+                    <Tab eventKey="tab-2" title="กีฬา">
+                      <Row>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/1.jpg"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/2.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/3.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/4.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/5.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/6.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/7.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/8.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/9.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/sport/10.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                      </Row>
+                    </Tab>
+                    <Tab eventKey="tab-3" title="คาสิโน">
+                      <Row>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/casino/1.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/casino/2.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/casino/3.jpg"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/casino/4.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/casino/5.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/casino/6.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                      </Row>
+                    </Tab>
+                    <Tab eventKey="tab-4" title="สล๊อต">
+                      <Row>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/1.jpg"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/2.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/3.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/4.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/5.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/6.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/7.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/8.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/9.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/10.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                      </Row>
+                    </Tab>
+                    <Tab eventKey="tab-5" title="หวย">
+                      <Row>
+                        <Col md={12} className="games Mb-2">
+                          <a href={linkLogin}>
+                            <img src={"https://fs.cdnxn.com/landingCenter/Images/slot/1.png"} alt="" className="w-100" />
+                          </a>
+                        </Col>
+                      </Row>
+                    </Tab>
+                  </Tabs>
+                </Row>
               </div>
             </div>
           </div>

@@ -77,11 +77,11 @@ export default function Header() {
             <div className="header--Pc">
               <div className="header--section--Pc">
                 <div className="header--Top--Pc">
-                  <img src={BgheaderPc} alt="" className="Bg--header--Pc"></img>
+                  <img src={"https://fs.cdnxn.com/landingCenter/Images/Pc/ImgPc24.png"} alt="" className="Bg--header--Pc"></img>
                   <a href="/">
-                    <img src={IconLsmPc} alt="" className="Icon--Lsm--Pc"></img>
+                    <img src={"https://fs.cdnxn.com/landingCenter/Images/Pc/ImgPc6.png"} alt="" className="Icon--Lsm--Pc"></img>
                   </a>
-                  <img src={BgiconPc} alt="" className="Bg--icon--Pc"></img>
+                  <img src={"https://fs.cdnxn.com/landingCenter/Images/Pc/ImgPc25.png"} alt="" className="Bg--icon--Pc"></img>
                 </div>
 
                 <div className="icon--Games--Pc">
@@ -135,13 +135,13 @@ export default function Header() {
                   </a>
 
                   <img
-                    src={IconnotifriPc}
+                    src={"https://fs.cdnxn.com/landingCenter/Images/Pc/ImgPc2.png"}
                     alt=""
                     className="Icon--notifri--Pc"
                     onClick={handleShowNofi}
                   ></img>
                   <img
-                    src={IcontabbarPc}
+                    src={"https://fs.cdnxn.com/landingCenter/Images/Pc/ImgPc1.png"}
                     alt=""
                     className="Icon--tabbar--Pc"
                     onClick={handleShow}
@@ -150,14 +150,14 @@ export default function Header() {
                 <div className="icon--login--regis--Pc">
                   <a href={linkLogin}>
                     <img
-                      src={IconloginPc}
+                      src={"https://fs.cdnxn.com/landingCenter/Images/Pc/ImgPc4.png"}
                       alt=""
                       className="Icon--login--Pc"
                     ></img>
                   </a>
                   <a href={linkRegister} >
                     <img
-                      src={IconregisterPc}
+                      src={"https://fs.cdnxn.com/landingCenter/Images/Pc/ImgPc5.png"}
                       alt=""
                       className="Icon--register--Pc"
                     ></img>
@@ -168,20 +168,20 @@ export default function Header() {
             <div className="header--Mb">
               <div className="header-section--Mb">
                 <div className="header--Top--Mb">
-                  <img src={BgheaderMb} alt="" className="Bg--header--Mb"></img>
+                  <img src={"https://fs.cdnxn.com/landingCenter/Images/Mb/ImgMb21.png"} alt="" className="Bg--header--Mb"></img>
                   <a href="/">
-                    <img src={IconLsmMb} alt="" className="Icon--Lsm--Mb"></img>
+                    <img src={"https://fs.cdnxn.com/landingCenter/Images/Pc/ImgPc6.png"} alt="" className="Icon--Lsm--Mb"></img>
                   </a>
                 </div>
                 <div className="icon--Noti--Mb">
                   <img
-                    src={IconnotifriMb}
+                    src={"https://fs.cdnxn.com/landingCenter/Images/Mb/ImgMb2.png"}
                     alt=""
                     className="Icon--notifri--Mb"
                     onClick={handleShowNofi}
                   ></img>
                   <img
-                    src={IcontabbarMb}
+                    src={"https://fs.cdnxn.com/landingCenter/Images/Mb/ImgMb1.png"}
                     alt=""
                     className="Icon--tabbar--Mb"
                     onClick={handleShow}
@@ -190,14 +190,14 @@ export default function Header() {
                 <div className="icon--login--regis--Mb">
                   <a href={linkLogin}>
                     <img
-                      src={IconloginMb}
+                      src={"https://fs.cdnxn.com/landingCenter/Images/Mb/ImgMb4.png"}
                       alt=""
                       className="Icon--login--Mb"
                     ></img>
                   </a>
                   <a href={linkRegister}>
                     <img
-                      src={IconregisterMb}
+                      src={"https://fs.cdnxn.com/landingCenter/Images/Mb/ImgMb5.png"}
                       alt=""
                       className="Icon--register--Mb"
                     ></img>
@@ -209,35 +209,35 @@ export default function Header() {
                 <div className="icon--Games--Mb">
                   <a href={linkLogin}>
                     <img
-                      src={IconwalletMb}
+                      src={"https://fs.cdnxn.com/landingCenter/Images/Mb/ImgMb7.png"}
                       alt=""
                       className="Icongames--Mb"
                     ></img>
                   </a>
                   <a href={linkLogin}>
                     <img
-                      src={IcondepositMb}
+                      src={"https://fs.cdnxn.com/landingCenter/Images/Mb/ImgMb8.png"}
                       alt=""
                       className="Icongames--Mb"
                     ></img>
                   </a>
                   <a href={linkLogin}>
                     <img
-                      src={IconPlayMb}
+                      src={"https://fs.cdnxn.com/landingCenter/Images/Mb/ImgMb9.png"}
                       alt=""
                       className="Icon--Play--Mb"
                     ></img>
                   </a>
                   <a href={linkLogin}>
                     <img
-                      src={IconwithdrawMb}
+                      src={"https://fs.cdnxn.com/landingCenter/Images/Mb/ImgMb10.png"}
                       alt=""
                       className="Icongames--Mb"
                     ></img>
                   </a>
                   <a href="Promotion/">
                     <img
-                      src={IconPromotionMb}
+                      src={"https://fs.cdnxn.com/landingCenter/Images/Mb/ImgMb11.png"}
                       alt=""
                       className="Icongames--Mb"
                     ></img>
@@ -252,7 +252,7 @@ export default function Header() {
             >
               <div className="Close--Nofi--Pc">
                 <img
-                  src={Iconclose}
+                  src={"https://fs.cdnxn.com/landingCenter/Images/Mb/ImgMb27.png"}
                   className="Icon--close--Nofi"
                   alt=""
                   onClick={handleCloseNofi}
@@ -261,11 +261,11 @@ export default function Header() {
 
               <div className="wrapper--menu--nofi">
                 <div className="text--noti">
-                  <img src={tx8} alt="" className="Icon--close--nofi" onClick={handleCloseNofi} />
+                  <img src={"https://fs.cdnxn.com/landingCenter/Images/Headerimg/img8.png"} alt="" className="Icon--close--nofi" onClick={handleCloseNofi} />
                   <h2 className="textnoti">แจ้งเตือน</h2>
                 </div>
                 <div className="wrapper--section--nofi">
-                  <img src={protab} alt="" className="bg--tab--blue--nofi" />
+                  <img src={"https://fs.cdnxn.com/landingCenter/Images/Promotion/protab.png"} alt="" className="bg--tab--blue--nofi" />
                   <div>
                     <div className="menu--nofi">
                       <Container className="box--nofi">
@@ -311,40 +311,40 @@ export default function Header() {
             <Modal show={show} onHide={handleClose} className="showmenu--modal">
               <div className="wrapper--menu">
                 <div className="Close--menu--Pc">
-                  <img src={tx8} alt="" className="Icon--close--Menu" onClick={handleClose} />
+                  <img src={"https://fs.cdnxn.com/landingCenter/Images/Headerimg/img8.png"} alt="" className="Icon--close--Menu" onClick={handleClose} />
                 </div>
                 <div className="wrapper--section-">
                   <div>
                     <div className="menu">
                       <div className="MBButton--tx1">
                         <a href={linkLogin}>
-                          <img src={tx1} alt="" className="tx--1"></img>
+                          <img src={"https://fs.cdnxn.com/landingCenter/Images/Headerimg/img1.png"} alt="" className="tx--1"></img>
                         </a>
                         <a href={linkLogin}>
-                          <img src={tx2} alt="" className="tx--1"></img>
+                          <img src={"https://fs.cdnxn.com/landingCenter/Images/Headerimg/img2.png"} alt="" className="tx--1"></img>
                         </a>
                       </div>
 
                       <div className="MBButton--tx2">
                         <a href={linkLogin}>
-                          <img src={tx3} alt="" className="tx--1"></img>
+                          <img src={"https://fs.cdnxn.com/landingCenter/Images/Headerimg/img3.png"} alt="" className="tx--1"></img>
                         </a>
                         <a href="Promotion/">
-                          <img src={tx4} alt="" className="tx--1"></img>
+                          <img src={"https://fs.cdnxn.com/landingCenter/Images/Headerimg/img4.png"} alt="" className="tx--1"></img>
                         </a>
                       </div>
 
                       <div className="MBButton--tx3">
                         <a href={linkLogin}>
-                          <img src={tx5} alt="" className="tx--1"></img>
+                          <img src={"https://fs.cdnxn.com/landingCenter/Images/Headerimg/img5.png"} alt="" className="tx--1"></img>
                         </a>
                         <a href={linkLogin}>
-                          <img src={tx6} alt="" className="tx--1"></img>
+                          <img src={"https://fs.cdnxn.com/landingCenter/Images/Headerimg/img6.png"} alt="" className="tx--1"></img>
                         </a>
                       </div>
                       <div className="MBButton--tx4">
                         <a href={linkLogin}>
-                          <img src={tx7} alt="" className="tx--2"></img>
+                          <img src={"https://fs.cdnxn.com/landingCenter/Images/Headerimg/img7.png"} alt="" className="tx--2"></img>
                         </a>
                       </div>
                       <div className="text--bg--menu">
