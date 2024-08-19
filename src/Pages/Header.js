@@ -55,9 +55,9 @@ import tx8 from "../Images/Headerimg/img8.png";
 import protab from "../Images/Promotion/protab.png";
 
 export default function Header() {
-  const [linkLogin, setLinkLogin] = useState("https://game.lsm99center.com/login");
+  const [linkLogin, setLinkLogin] = useState("https://lsm99center.l3t.lsmplay.com/login");
   const [linkRegister, setRegister] = useState(
-    "https://game.lsm99center.com/register"
+    "https://lsm99center.l3t.lsmplay.com/register"
   );
   const [linelink, setLineLink] = useState("https://line.me/R/ti/p/@344iyomr");
 

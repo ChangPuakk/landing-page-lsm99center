@@ -37,7 +37,7 @@ import iconline from "../Images/Mb/ImgMb3.png";
 
 export default function Home() {
   const [closeMarquee, setCloseMarquee] = useState(true);
-  const [linkLogin, setLinkLogin] = useState("https://game.lsm99center.com");
+  const [linkLogin, setLinkLogin] = useState("https://lsm99center.l3t.lsmplay.com");
   const [linelink, setLineLink] = useState("https://line.me/R/ti/p/@344iyomr");
   return (
     <>

@@ -45,7 +45,7 @@ import closetextshow from "../Images/Mb/ImgMb27.png";
 
 export default function Promotion() {
   const [closeMarquee, setCloseMarquee] = useState(true);
-  const [linkLogin, setLinkLogin] = useState("https://game.lsm99center.com/login");
+  const [linkLogin, setLinkLogin] = useState("https://lsm99center.l3t.lsmplay.com/login");
 
   return (
     <>
