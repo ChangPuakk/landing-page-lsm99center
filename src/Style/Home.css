@@ -398,6 +398,7 @@ img {
 
 .title-logo {
   margin-bottom: 60px;
+  max-width: 476px;
 }
 
 .title-menu {
@@ -474,20 +475,20 @@ img {
 }
 
 .category-slot {
-  background-image: url(../Images/new-center/slot.svg);
+  background-image: url(../Images/new-center/slot.png);
 
 }
 
 .category-lotto{
-  background-image: url(../Images/new-center/lotto.svg);
+  background-image: url(../Images/new-center/lotto.png);
 }
 
 .category-casino{
-  background-image: url(../Images/new-center/casino.svg);
+  background-image: url(../Images/new-center/casino.png);
 }
 
 .category-sport{
-  background-image: url(../Images/new-center/sport.svg);
+  background-image: url(../Images/new-center/sport.png);
 }
 
 .category {
@@ -573,6 +574,43 @@ img {
   
 }
 
+.footer-section {
+  width: 100%;
+  height: 507px;
+  background: rgba(22, 20, 21, 0.50);
+  backdrop-filter: blur(36.923072814941406px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.icon-bank img {
+  width: 74.856px;
+  height: 74.856px;
+}
+
+.icon-bank {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.footerlogo {
+  width: 497.887px;
+  margin: auto;
+}
+
+.footer-text {
+  width: 900px;
+  margin: 70px auto;
+  text-align: center;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 205.5%;
+}
 @media screen and (max-width: 1099px) {
 
   .title-box, .promotion-box, .games-box, .question-section  {
@@ -610,6 +648,8 @@ img {
   .games-box {
     background-image: url(../Images/new-center/box-bg-mb.png);
     padding: 1rem 0rem;
+    height: 400px;
+    justify-content: flex-start;
   }
 
   .title-menu {
@@ -632,6 +672,31 @@ img {
 
   .question-banner {
     margin-top: -2rem;
+  }
+
+  .icon-bank img {
+    width: 32.164px;
+    height: 32.164px;
+  }
+
+  .footer-text {
+    width: 65%;
+    margin: 30px auto;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 205.5%;
+  }
+
+  .footerlogo {
+    width: 203px;
+  }
+
+  .footer-section {
+    height: 259px;
+  }
+
+  .title-logo {
+    margin-bottom: 20px;
   }
 }
 
@@ -702,6 +767,6 @@ img {
   }
 
   .question-text {
-    padding: 14rem 30px 1rem 30px;
+    padding: 15rem 30px 3rem 30px;
   }
 }

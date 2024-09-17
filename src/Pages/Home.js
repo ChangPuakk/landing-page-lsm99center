@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Header from "../Pages/Header";
-import Games from "../Pages/Games";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
 
@@ -13,22 +12,49 @@ import BannerPro5 from "../Images/Promotion/Banner5.png";
 import BannerPro6 from "../Images/Promotion/Banner6.png";
 
 import titlebanner from "../Images/new-center/banner-logo.png";
-import titlelogo from "../Images/new-center/logo.svg";
-import titlemenu1 from "../Images/new-center/menu1.svg";
-import titlemenu2 from "../Images/new-center/menu2.svg";
-import titlemenu3 from "../Images/new-center/menu3.svg";
+import titlelogo from "../Images/new-center/logo.png";
+import titlemenu1 from "../Images/new-center/menu1.png";
+import titlemenu2 from "../Images/new-center/menu2.png";
+import titlemenu3 from "../Images/new-center/menu3.png";
 
 import promotiontitle from "../Images/new-center/bg-tab0.png";
 import gamestitle from "../Images/new-center/bg-tab1.png";
 
-import iconGame1 from "../Images/new-center/icon-games/game1.svg";
-import iconGame2 from "../Images/new-center/icon-games/game2.svg";
-import iconGame3 from "../Images/new-center/icon-games/game3.svg";
-import iconGame4 from "../Images/new-center/icon-games/game4.svg";
-import iconGame5 from "../Images/new-center/icon-games/game5.svg";
-import iconGame6 from "../Images/new-center/icon-games/game6.svg";
-import iconGame7 from "../Images/new-center/icon-games/game7.svg";
-import iconGame8 from "../Images/new-center/icon-games/game8.svg";
+import iconBank1 from "../Images/new-center/icon-bank/b1.png";
+import iconBank2 from "../Images/new-center/icon-bank/b2.png";
+import iconBank3 from "../Images/new-center/icon-bank/b3.png";
+import iconBank4 from "../Images/new-center/icon-bank/b4.png";
+import iconBank5 from "../Images/new-center/icon-bank/b5.png";
+import iconBank6 from "../Images/new-center/icon-bank/b6.png";
+import iconBank7 from "../Images/new-center/icon-bank/b7.png";
+
+import iconGames1 from "../Images/new-center/icon-games/s1.png";
+import iconGames2 from "../Images/new-center/icon-games/s2.png";
+import iconGames3 from "../Images/new-center/icon-games/s3.png";
+import iconGames4 from "../Images/new-center/icon-games/s4.png";
+import iconGames5 from "../Images/new-center/icon-games/s5.png";
+import iconGames6 from "../Images/new-center/icon-games/s6.png";
+import iconGames7 from "../Images/new-center/icon-games/s7.png";
+import iconGames8 from "../Images/new-center/icon-games/s8.png";
+
+import iconGamec1 from "../Images/new-center/icon-games/c1.png";
+import iconGamec2 from "../Images/new-center/icon-games/c2.png";
+import iconGamec3 from "../Images/new-center/icon-games/c3.png";
+import iconGamec4 from "../Images/new-center/icon-games/c4.png";
+import iconGamec5 from "../Images/new-center/icon-games/c5.png";
+import iconGamec6 from "../Images/new-center/icon-games/c6.png";
+import iconGamec7 from "../Images/new-center/icon-games/c7.png";
+import iconGamec8 from "../Images/new-center/icon-games/c8.png";
+
+import iconGamesp1 from "../Images/new-center/icon-games/sp1.png";
+import iconGamesp2 from "../Images/new-center/icon-games/sp2.png";
+import iconGamesp3 from "../Images/new-center/icon-games/sp3.png";
+import iconGamesp4 from "../Images/new-center/icon-games/sp4.png";
+import iconGamesp5 from "../Images/new-center/icon-games/sp5.png";
+
+import iconGamel1 from "../Images/new-center/icon-games/l1.png";
+import iconGamel2 from "../Images/new-center/icon-games/l2.png";
+import iconGamel3 from "../Images/new-center/icon-games/l3.png";
 
 import question from "../Images/new-center/banner-logo2.png";
 
@@ -40,10 +66,10 @@ export default function Home() {
   const gameCategories = ['slot', 'lotto', 'casino', 'sport'];
 
   const gameImages = {
-    slot: [iconGame1, iconGame2, iconGame6, iconGame4, iconGame3, iconGame5, iconGame8, iconGame7],
-    lotto: [iconGame2, iconGame2, iconGame2, iconGame2, iconGame2, iconGame2, iconGame2, iconGame2],
-    casino: [iconGame7, iconGame7, iconGame7, iconGame7, iconGame7, iconGame7, iconGame7, iconGame7],
-    sport: [iconGame4, iconGame4, iconGame4, iconGame4, iconGame4, iconGame4, iconGame4, iconGame4],
+    slot: [iconGames1, iconGames2, iconGames3, iconGames4, iconGames5, iconGames6, iconGames7, iconGames8],
+    lotto: [iconGamel1, iconGamel2, iconGamel3],
+    casino: [iconGamec1, iconGamec2, iconGamec3, iconGamec4, iconGamec5, iconGamec6, iconGamec7, iconGamec8],
+    sport: [iconGamesp1, iconGamesp2, iconGamesp3, iconGamesp4, iconGamesp5],
   };
 
   useEffect(() => {
@@ -72,7 +98,7 @@ export default function Home() {
         const nextIndex = (currentIndex + 1) % gameCategories.length;
         return gameCategories[nextIndex];
       });
-    }, 5000); // สลับหมวดหมู่ทุก 5 วินาที
+    }, 5000);
 
     return () => clearInterval(intervalId);
   }, []);
@@ -80,8 +106,8 @@ export default function Home() {
   return (
     <>
       <div>
+        <div className="header-section"></div>
         <div className="center-container">
-          <div className="header-section"></div>
           <div className="title-section">
             <div className="title-box">
               <div className="title-text">
@@ -111,13 +137,13 @@ export default function Home() {
                 <Splide
                   className="slide"
                   options={{
-                    rewind: true, // ให้กลับไปที่สไลด์แรกเมื่อจบ
-                    gap: "10px", // ระยะห่างระหว่างสไลด์
-                    type: "loop", // ให้สไลด์วนไปเรื่อยๆ
-                    autoplay: true, // เปิดการ autoplay
-                    interval: 3000, // ตั้งเวลาในการเปลี่ยนสไลด์ (หน่วยเป็น ms)
-                    arrows: false, // ซ่อนลูกศร
-                    pauseOnHover: true, // หยุด autoplay เมื่อเมาส์เลื่อนมาที่สไลด์
+                    rewind: true,
+                    gap: "10px",
+                    type: "loop",
+                    autoplay: true,
+                    interval: 3000,
+                    arrows: false,
+                    pauseOnHover: true,
                   }}
                 >
                   <SplideSlide>
@@ -213,7 +239,30 @@ export default function Home() {
               <img src={question} alt="banner" />
             </div>
           </div>
+          <div className="footer-section">
+          <div>
+            <div className="footerlogo">
+              <img src={titlelogo} alt="logo" />
+            </div>
+            <div className="footer-text">
+              <span>
+                LSM99CENTER ศูนย์รวมเว็บพนันออนไลน์ทุกชนิด ฝาก-ถอนด้วยระบบออโต้ทำรายการไม่กี่วินาที พร้อมรูปแบบการเล่นง่าย สมัครง่ายในไม่กี่ขั้นตอน
+                บริการด้วยระบบออนไลน์มาตรฐานสากล เท่าไหร่ก็จ่าย
+              </span>
+            </div>
+            <div className="icon-bank">
+              <img src={iconBank1} alt="icon-bank" />
+              <img src={iconBank2} alt="icon-bank" />
+              <img src={iconBank3} alt="icon-bank" />
+              <img src={iconBank4} alt="icon-bank" />
+              <img src={iconBank5} alt="icon-bank" />
+              <img src={iconBank6} alt="icon-bank" />
+              <img src={iconBank7} alt="icon-bank" />
+            </div>
+          </div>
+          </div>
         </div>
+
       </div>
     </>
   );
