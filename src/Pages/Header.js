@@ -13,6 +13,14 @@ export default function Header() {
     <>
       <div>
         <div className="header">
+          <div className="button-head">
+            <a href={linkLogin}>
+              <button className="btn-login">เข้าสู่ระบบ</button>
+            </a>
+            <a href={linkRegister}>
+              <button className="btn-register">สมัครสมาชิก</button>
+            </a>
+          </div>
         </div>
       </div>
     </>

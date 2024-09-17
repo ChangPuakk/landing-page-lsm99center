@@ -1,13 +1,7 @@
 .wrapper.wrapper--bg {
-  background-color: black;
-  height: 100vh;
-  max-width: 100%;
-  background-position: center;
-  position: fixed;
-  width: 100%;
-  background-repeat: repeat;
-  overflow-y: auto;
-  background-size: 100% 100%;
+  background-image: url(../Images/new-center/BG-Desktop.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 @font-face {
@@ -391,12 +385,7 @@ img.Icon--close--Menu {
   }
 
   .wrapper.wrapper--bg {
-    height: 100vh;
-    max-width: 100%;
-    background-position: center;
-    width: 100%;
-    background-size: 100% 100%;
-    overflow-y: auto;
+    background-image: url(../Images/new-center/BG-MB-Dice.png);
   }
 
   img.Bg--header--Mb {
