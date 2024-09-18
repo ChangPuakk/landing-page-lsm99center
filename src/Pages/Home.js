@@ -63,6 +63,8 @@ export default function Home() {
   const [displayedGames, setDisplayedGames] = useState([]);
   const gameCategories = ['slot', 'lotto', 'casino', 'sport'];
 
+  const [currentBanner, setCurrentBanner] = useState(0);
+
   const gameImages = {
     slot: [iconGames1, iconGames2, iconGames3, iconGames4, iconGames5, iconGames6, iconGames7, iconGames8],
     lotto: [iconGamel1, iconGamel2, iconGamel3],
@@ -86,7 +88,7 @@ export default function Home() {
     return () => {
       window.removeEventListener('resize', handleResize);
     };
-  }, [selectedCategory, gameImages]);
+  }, []);
 
   // Auto switch categories
   useEffect(() => {
@@ -101,6 +103,79 @@ export default function Home() {
     return () => clearInterval(intervalId);
   }, [gameCategories]);
 
+  /**/
+
+  const promotionTexts = [
+    {
+      title: (
+        <>
+          บอลสเต็ป ถูกหรือผิดติดต่อกัน 5-9 คู่บอลสเต็ป<br />
+          - ถูกเต็มทั้งหมด 5-9 คู่ หรือผิดเต็มทั้งหมด 5-9 คู่<br />
+          - รับโบนัส 10 เท่าของยอดแทง จ่ายสูงสุด 3,999 บาท <br />
+          - บิลขั้นต่ำ 10 บาทขึ้นไป
+        </>
+      ),
+      conditions: [
+        <span>เงื่อนไข</span>,
+        "- บอลแต่ละคู่ต้องมีค่าน้ำ 1.75 - 2.35 เท่านั้น",
+        "- บอล นับเฉพาะเต็มเวลา (HDP) ไม่รวมการเล่น 1x2",
+        "- สามารถแทงสลับคู่ต่อบิลได้ไม่เกิน 4 บิล",
+        "- โปรโมชั่นประเภทกีฬาทั้งหมด ***สามารถแจ้งรับได้แค่ 1 โปรเท่านั้น",
+        "- แจ้งรับได้ภายใน 24 ชั่วโมง (โดยยึดวันที่ วันต่อวัน ตามรอบบิลในประวัติการแทงนะคะ",
+        <span>**รับได้เฉพาะ กีฬา SPORT LSM และ กีฬา SBOBET</span>
+      ]
+    },
+    {
+      title: (
+        <>
+          ทายหวยง่าย ๆ เพียง แคปหน้าจอประวัติยอดเงินรวมการซื้อหวยส่งให้ทางแอดมิน <br />
+          - ทายถูก 3 ตัวบน รับ ทองคำหนัก 1 บาท<br />
+          - ทายถูก 2 ตัวล่าง รับ ทองคำหนัก 1 สลึง<br />
+        </>
+      ),
+      conditions: [
+        <span>เงื่อนไขโปรโมชั่น</span>,
+        "- บิลการเล่นหวยทุกชนิดสามารถลุ้นรับได้ เพียงเเค่มีการแทงหวย 2,000 บาทขึ้นไป",
+        "- สามารถทายได้ก่อนวันหวยออก 3 วัน",
+        "- 1 สิทธิ์ สามารถเลือกทายได้แค่ 1 อย่าง (ทาย 3 ตัวบน หรือ 2 ตัวล่าง) (ให้เลือกทายหวย 3 ตัวบน หรือ 2 ตัวล่าง อย่างใดอย่างหนึ่งเท่านั้น)",
+        "- ต้องเป็นบิลที่ไม่สามารถยกเลิกได้",
+        "- หากเลขนั้นๆมีผู้ทายก่อนแล้ว จะไม่สามารถทายซ้ำได้",
+      ]
+    },
+    {
+      title: "โบนัสสล็อตแตก 0 บาท (ซื้อฟีเจอร์คืนทุน 100%)",
+      conditions: [
+        "หลังจากจบการหมุนฟีเจอร์ครบแล้วยอดรวมเป็น 0 บาท รับโบนัสคืนทุนทันที 150 บาท",
+        "(หากชื่อซ้ำ หรือ IP ซ้ำกันทางเว็บจะตัดสิทธิ์ในการรับโบนัสทันที)",
+        <span>ทางเว็บ ขอสงวนสิทธิ์ในการตัดสินใจเพียงผู้เดียว หากมีสิ่งที่นอกเหนือจากนี้ คำตัดสินของทางเว็บจะถือเป็นข้อสิ้นสุดค่ะ</span>
+      ]
+    },
+    {
+      title: (
+        <>
+          เดิมพันคาสิโน บิล 100 บาทขึ้นไป ลุ้นรับโบนัสสูงสุด 100,000 บาท <br />
+          - ถูก หรือ ผิด ติดต่อกัน 9 ตา รับเพิ่ม 5 เท่า สูงสุดถึง 5,000 บาท<br />
+          - ถูก หรือ ผิด ติดต่อกัน 10 ตา รับเพิ่ม 10 เท่า สูงสุดถึง 10,000 บาท<br />
+          - ถูก หรือ ผิด ติดต่อกัน 11 ตา รับเพิ่ม 15 เท่า สูงสุดถึง 20,000 บาท<br />
+          - ถูก หรือ ผิด ติดต่อกัน 13 ตา รับเพิ่ม 20 เท่า สูงสุดถึง 50,000 บาท<br />
+          - ถูก หรือ ผิด ติดต่อกัน 15 ตา รับเพิ่ม 30 เท่า สูงสุดถึง 100,000 บาท<br />
+          - ถูก หรือ ผิด ติดต่อกัน 20 ตา รับทันที 100,000 บาท<br />
+          - ยอดเดิมพันต่อบิล 100 บาทขึ้นไป
+        </>
+      ),
+      conditions: [
+        <span>ตัวอย่าง</span>,
+        "หากลูกค้าเดิมพันใน 15 ตา และชนะติดต่อกัน จะนับโบนัสจากยอดเดิมพัน ที่ต่ำสุด ",
+        "เช่น ตาที่ต่ำสุดคือ เดิมพัน Player 3,000 บาท หากเข้าตามเงื่อนไข",
+        "ยอดโบนัสที่ลูกค้าจะได้รับเพิ่มคือ 3,000X30 เท่ากับ 90,000 บาท",
+      ]
+    },
+  ];
+
+  const handleMove = (splide, newIndex) => {
+    setCurrentBanner(newIndex);
+  };
+
   return (
     <>
       <div>
@@ -111,9 +186,9 @@ export default function Home() {
           <div className="title-section">
             <div className="title-box">
               <div className="title-text">
-                <div className="title-logo">
+                {/* <div className="title-logo">
                   <img src={titlelogo} alt="logo" />
-                </div>
+                </div> */}
                 <h1>“ก้าวสู่โลกแห่งการเดิมพันที่ดีที่สุดกับ”</h1>
                 <span>LSM99CENTER</span>
                 <p>ยินดีต้อนรับสู่โลกแห่งการเดิมพันออนไลน์ที่เหนือกว่ากับ LSM99CENTER<br /> ที่นี่คือจุดหมายปลายทางสำหรับนักเดิมพันที่ต้องการสัมผัสประสบการณ์สุดพิเศษและคุ้มค่าอย่างแท้จริงเราเข้าใจว่าคุณต้องการไม่เพียงแค่ความสนุกและความบันเทิงแต่ยังต้องการแพลตฟอร์มที่ปลอดภัย รวดเร็ว และน่าเชื่อถือ นั่นคือสิ่งที่เราพร้อมมอบให้คุณ ที่หาไม่ได้จากที่อื่น!</p>
@@ -122,11 +197,41 @@ export default function Home() {
                 <img src={titlebanner} alt="banner" />
               </div>
             </div>
-            <div className="title-menu">
+            <div className="title-menu" id="scrollableDiv">
               <img src={titlemenu1} alt="menu" />
               <img src={titlemenu2} alt="menu" />
               <img src={titlemenu3} alt="menu" />
             </div>
+            <Splide
+              className="custom-slider"
+              options={{
+                rewind: true,
+                gap: "10px",
+                type: "loop",
+                autoplay: true,
+                interval: 3000,
+                arrows: false,
+                pauseOnHover: false,
+                perPage: 1,
+                focus: 'center',
+                padding: {
+                  left: '20%',
+                  right: '20%'
+                }
+              }}
+            >
+              <SplideSlide className="custom-slider">
+                <img src={titlemenu1} alt="" className="w-100" />
+              </SplideSlide>
+              <SplideSlide className="custom-slider">
+                <img src={titlemenu1} alt="" className="w-100" />
+              </SplideSlide>
+              <SplideSlide className="custom-slider">
+                <img src={titlemenu1} alt="" className="w-100" />
+              </SplideSlide>
+            </Splide>
+
+
           </div>
           <div className="promotion-section">
             <div className="promotion-title">
@@ -135,7 +240,7 @@ export default function Home() {
             <div className="promotion-box">
               <div className="promotion-banner">
                 <Splide
-                  className="slide"
+                  className="slide_promotion"
                   options={{
                     rewind: true,
                     gap: "10px",
@@ -143,45 +248,32 @@ export default function Home() {
                     autoplay: true,
                     interval: 3000,
                     arrows: false,
-                    pauseOnHover: true,
+                    pauseOnHover: false,
                   }}
+                  onMove={handleMove}
                 >
-                  <SplideSlide>
-                    <a href={linkLogin}>
-                      <img src={BannerPro1} alt="" className="w-100" />
-                    </a>
+                  <SplideSlide className="slide_promotion">
+                    <img src={BannerPro1} alt="" className="w-100" />
                   </SplideSlide>
-                  <SplideSlide>
-                    <a href={linkLogin}>
-                      <img src={BannerPro2} alt="" className="w-100" />
-                    </a>
+                  <SplideSlide className="slide_promotion">
+                    <img src={BannerPro2} alt="" className="w-100" />
                   </SplideSlide>
-                  <SplideSlide>
-                    <a href={linkLogin}>
-                      <img src={BannerPro3} alt="" className="w-100" />
-                    </a>
+                  <SplideSlide className="slide_promotion">
+                    <img src={BannerPro3} alt="" className="w-100" />
                   </SplideSlide>
-                  <SplideSlide>
-                    <a href={linkLogin}>
-                      <img src={BannerPro4} alt="" className="w-100" />
-                    </a>
+                  <SplideSlide className="slide_promotion">
+                    <img src={BannerPro4} alt="" className="w-100" />
                   </SplideSlide>
                 </Splide>
               </div>
               <div className="promotion-text">
+                <p>{promotionTexts[currentBanner].title}</p>
                 <p>
-                  มวยเดี่ยว ที่มีการเเทงถูกติดต่อกัน 5 คู่ หรือ เเทงผิดติดต่อกัน 5 คู่
-                  บอลเดี่ยว ที่มีการเเทงถูกติดต่อกัน 5 คู่ หรือ เเทงผิดติดต่อกัน 5 คู่
-                  สามารถเเคปบิลเเจ้งแอดมินผ่านไลน์เพื่อรับโบนัสได้ ทันที 1,000 บาท
-                  (บิลขั้นต่ำ 200 บาท ขึ้นไป)
-                </p>
-                <span>**เงื่อนไข</span>
-                <p>
-                  - บอลเดี่ยวต้องมีค่าน้ำ 0.75 ขึ้นไป ไม่ต่ำกว่า -0.75 เท่านั้น<br />
-                  - มวยเดี่ยวต้องมีค่าน้ำ 0.60 ขึ้นไป ไม่ต่ำกว่า -0.60 เท่านั้น<br />
-                  - มวยต้องเป็นมวยก่อนชกเท่านั้น ไม่นับรวม สูง/ต่ำ ทั้ง 5 คู่<br />
-                  - กีฬาต้องแทงก่อนการแข่งขัน เต็มเวลาเท่านั้น (HDP) ทั้ง 5 คู่ <br />
-                  - มวย หรือ บอล สามารถรวมกันได้ตามเงื่อนไข หากมี Live เข้ามาคั่น
+                  {promotionTexts[currentBanner].conditions.map((condition, index) => (
+                    <React.Fragment key={index}>
+                      {condition}<br />
+                    </React.Fragment>
+                  ))}
                 </p>
               </div>
             </div>
