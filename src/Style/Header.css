@@ -1,7 +1,13 @@
 .wrapper.wrapper--bg {
-  background-image: url(../Images/new-center/BG-Desktop.png);
-  background-size: contain;
+  background-image: url(../Images/new-center/BG-Desktop.gif);
+  background-size: 100% 100%;
   background-repeat: no-repeat;
+  height: 100vh;
+  max-width: 100%;
+  background-position: center;
+  position: fixed;
+  width: 100%;
+  overflow-y: auto;
 }
 
 @font-face {
@@ -349,6 +355,9 @@ img.Icon--close--Menu {
 }
 
 @media screen and (max-width: 600px) {
+  .wrapper.wrapper--bg {
+    background-image: url(../Images/new-center/BG-MB-Dice.gif);
+  }
   .wrapper--section--nofi {
     width: 480px;
   }
@@ -382,10 +391,6 @@ img.Icon--close--Menu {
 
   .header--Mb {
     display: block;
-  }
-
-  .wrapper.wrapper--bg {
-    background-image: url(../Images/new-center/BG-MB-Dice.png);
   }
 
   img.Bg--header--Mb {
