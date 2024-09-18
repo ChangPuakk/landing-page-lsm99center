@@ -4,12 +4,10 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
 
 // รวม import รูปภาพทั้งหมดที่ใช้
-import BannerPro1 from "../Images/Promotion/Banner1.png";
-import BannerPro2 from "../Images/Promotion/Banner2.png";
-import BannerPro3 from "../Images/Promotion/Banner3.png";
-import BannerPro4 from "../Images/Promotion/Banner4.png";
-import BannerPro5 from "../Images/Promotion/Banner5.png";
-import BannerPro6 from "../Images/Promotion/Banner6.png";
+import BannerPro1 from "../Images/new-center/Promotion/Pro1.png";
+import BannerPro2 from "../Images/new-center/Promotion/Pro2.png";
+import BannerPro3 from "../Images/new-center/Promotion/Pro3.png";
+import BannerPro4 from "../Images/new-center/Promotion/Pro4.png";
 
 import titlebanner from "../Images/new-center/banner-logo.png";
 import titlelogo from "../Images/new-center/logo.png";
@@ -166,16 +164,6 @@ export default function Home() {
                   <SplideSlide>
                     <a href={linkLogin}>
                       <img src={BannerPro4} alt="" className="w-100" />
-                    </a>
-                  </SplideSlide>
-                  <SplideSlide>
-                    <a href={linkLogin}>
-                      <img src={BannerPro5} alt="" className="w-100" />
-                    </a>
-                  </SplideSlide>
-                  <SplideSlide>
-                    <a href={linkLogin}>
-                      <img src={BannerPro6} alt="" className="w-100" />
                     </a>
                   </SplideSlide>
                 </Splide>
