@@ -582,9 +582,13 @@ img {
   .question-text-bg img {
     transform: translate(8px, 70px);
     width: 95%;
-    }
+  }
 
-    .group-question {
-      margin-top: 2rem;
-    }
+  .group-question {
+    margin-top: 2rem;
+  }
+
+  .footer-text {
+    width: 80%;
+  }
 }
