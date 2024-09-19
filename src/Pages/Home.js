@@ -226,10 +226,10 @@ export default function Home() {
                 <img src={titlemenu1} alt="" className="w-100" />
               </SplideSlide>
               <SplideSlide className="custom-slider">
-                <img src={titlemenu1} alt="" className="w-100" />
+                <img src={titlemenu2} alt="" className="w-100" />
               </SplideSlide>
               <SplideSlide className="custom-slider">
-                <img src={titlemenu1} alt="" className="w-100" />
+                <img src={titlemenu3} alt="" className="w-100" />
               </SplideSlide>
             </Splide>
 
