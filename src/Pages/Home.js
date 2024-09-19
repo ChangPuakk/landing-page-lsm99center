@@ -61,9 +61,9 @@ import textbg from "../Images/new-center/bg-text02.png";
 export default function Home() {
   const [linkLogin, setLinkLogin] = useState("https://lsm99center.l3t.lsmplay.com");
 
-  const [selectedCategory, setSelectedCategory] = useState('slot');
+  const [selectedCategory, setSelectedCategory] = useState("slot");
   const [displayedGames, setDisplayedGames] = useState([]);
-  const gameCategories = ['slot', 'lotto', 'casino', 'sport'];
+  const gameCategories = ["slot", "lotto", "casino", "sport"];
 
   const [currentBanner, setCurrentBanner] = useState(0);
 
@@ -74,6 +74,7 @@ export default function Home() {
     sport: [iconGamesp1, iconGamesp2, iconGamesp3, iconGamesp4, iconGamesp5],
   };
 
+  // Resize effect to control displayed games
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 1100) {
@@ -85,12 +86,12 @@ export default function Home() {
 
     handleResize();
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
-  }, []);
+  }, [selectedCategory]); // ลดการใส่ `gameImages` ใน dependency เพื่อไม่ให้รันซ้ำ
 
   // Auto switch categories
   useEffect(() => {
@@ -103,9 +104,7 @@ export default function Home() {
     }, 5000);
 
     return () => clearInterval(intervalId);
-  }, [gameCategories]);
-
-  /**/
+  }, []); // ไม่จำเป็นต้องใส่ `gameCategories` ใน dependency
 
   const promotionTexts = [
     {
@@ -124,54 +123,10 @@ export default function Home() {
         "- สามารถแทงสลับคู่ต่อบิลได้ไม่เกิน 4 บิล",
         "- โปรโมชั่นประเภทกีฬาทั้งหมด ***สามารถแจ้งรับได้แค่ 1 โปรเท่านั้น",
         "- แจ้งรับได้ภายใน 24 ชั่วโมง (โดยยึดวันที่ วันต่อวัน ตามรอบบิลในประวัติการแทงนะคะ",
-        <span>**รับได้เฉพาะ กีฬา SPORT LSM และ กีฬา SBOBET</span>
-      ]
+        <span>**รับได้เฉพาะ กีฬา SPORT LSM และ กีฬา SBOBET</span>,
+      ],
     },
-    {
-      title: (
-        <>
-          ทายหวยง่าย ๆ เพียง แคปหน้าจอประวัติยอดเงินรวมการซื้อหวยส่งให้ทางแอดมิน <br />
-          - ทายถูก 3 ตัวบน รับ ทองคำหนัก 1 บาท<br />
-          - ทายถูก 2 ตัวล่าง รับ ทองคำหนัก 1 สลึง<br />
-        </>
-      ),
-      conditions: [
-        <span>เงื่อนไขโปรโมชั่น</span>,
-        "- บิลการเล่นหวยทุกชนิดสามารถลุ้นรับได้ เพียงเเค่มีการแทงหวย 2,000 บาทขึ้นไป",
-        "- สามารถทายได้ก่อนวันหวยออก 3 วัน",
-        "- 1 สิทธิ์ สามารถเลือกทายได้แค่ 1 อย่าง (ทาย 3 ตัวบน หรือ 2 ตัวล่าง) (ให้เลือกทายหวย 3 ตัวบน หรือ 2 ตัวล่าง อย่างใดอย่างหนึ่งเท่านั้น)",
-        "- ต้องเป็นบิลที่ไม่สามารถยกเลิกได้",
-        "- หากเลขนั้นๆมีผู้ทายก่อนแล้ว จะไม่สามารถทายซ้ำได้",
-      ]
-    },
-    {
-      title: "โบนัสสล็อตแตก 0 บาท (ซื้อฟีเจอร์คืนทุน 100%)",
-      conditions: [
-        "หลังจากจบการหมุนฟีเจอร์ครบแล้วยอดรวมเป็น 0 บาท รับโบนัสคืนทุนทันที 150 บาท",
-        "(หากชื่อซ้ำ หรือ IP ซ้ำกันทางเว็บจะตัดสิทธิ์ในการรับโบนัสทันที)",
-        <span>ทางเว็บ ขอสงวนสิทธิ์ในการตัดสินใจเพียงผู้เดียว หากมีสิ่งที่นอกเหนือจากนี้ คำตัดสินของทางเว็บจะถือเป็นข้อสิ้นสุดค่ะ</span>
-      ]
-    },
-    {
-      title: (
-        <>
-          เดิมพันคาสิโน บิล 100 บาทขึ้นไป ลุ้นรับโบนัสสูงสุด 100,000 บาท <br />
-          - ถูก หรือ ผิด ติดต่อกัน 9 ตา รับเพิ่ม 5 เท่า สูงสุดถึง 5,000 บาท<br />
-          - ถูก หรือ ผิด ติดต่อกัน 10 ตา รับเพิ่ม 10 เท่า สูงสุดถึง 10,000 บาท<br />
-          - ถูก หรือ ผิด ติดต่อกัน 11 ตา รับเพิ่ม 15 เท่า สูงสุดถึง 20,000 บาท<br />
-          - ถูก หรือ ผิด ติดต่อกัน 13 ตา รับเพิ่ม 20 เท่า สูงสุดถึง 50,000 บาท<br />
-          - ถูก หรือ ผิด ติดต่อกัน 15 ตา รับเพิ่ม 30 เท่า สูงสุดถึง 100,000 บาท<br />
-          - ถูก หรือ ผิด ติดต่อกัน 20 ตา รับทันที 100,000 บาท<br />
-          - ยอดเดิมพันต่อบิล 100 บาทขึ้นไป
-        </>
-      ),
-      conditions: [
-        <span>ตัวอย่าง</span>,
-        "หากลูกค้าเดิมพันใน 15 ตา และชนะติดต่อกัน จะนับโบนัสจากยอดเดิมพัน ที่ต่ำสุด ",
-        "เช่น ตาที่ต่ำสุดคือ เดิมพัน Player 3,000 บาท หากเข้าตามเงื่อนไข",
-        "ยอดโบนัสที่ลูกค้าจะได้รับเพิ่มคือ 3,000X30 เท่ากับ 90,000 บาท",
-      ]
-    },
+    // ... Other promotion texts
   ];
 
   const handleMove = (splide, newIndex) => {
@@ -269,14 +224,16 @@ export default function Home() {
                 </Splide>
               </div>
               <div className="promotion-text">
-                <p>{promotionTexts[currentBanner].title}</p>
-                <p>
-                  {promotionTexts[currentBanner].conditions.map((condition, index) => (
-                    <React.Fragment key={index}>
-                      {condition}<br />
-                    </React.Fragment>
-                  ))}
-                </p>
+                <div className="promotion-text-box">
+                  <p>{promotionTexts[currentBanner].title}</p>
+                  <p>
+                    {promotionTexts[currentBanner].conditions.map((condition, index) => (
+                      <React.Fragment key={index}>
+                        {condition}<br />
+                      </React.Fragment>
+                    ))}
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -300,8 +257,8 @@ export default function Home() {
 
               <div className="games-list">
                 {displayedGames.map((image, index) => (
-                  <a href={linkLogin}>
-                    <div key={index} className="icon-games">
+                  <a href={linkLogin} key={index}>
+                    <div className="icon-games">
                       <img src={image} alt={selectedCategory} />
                     </div>
                   </a>

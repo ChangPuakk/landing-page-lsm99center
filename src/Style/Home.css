@@ -127,6 +127,7 @@ img {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   width: 50%;
+  height: 423px;
   flex-shrink: 0;
   padding: 40px 46px;
   color: #FFF;
@@ -382,7 +383,9 @@ img {
 
   .promotion-text {
     width: 100%;
+    height: 380px;
     margin-top: 1rem;
+    overflow: auto;
   }
 
   .center-container {
