@@ -382,7 +382,7 @@ img {
   }
 
   .promotion-text {
-    width: 100%;
+    width: 90%;
     height: 380px;
     margin-top: 1rem;
   }
@@ -503,6 +503,10 @@ img {
     align-items: center;
     gap: 15px;
     margin-top: 20px;
+  }
+
+  .title-text h1 {
+    font-size: 38px;
   }
 
 }
