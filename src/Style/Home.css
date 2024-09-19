@@ -260,13 +260,20 @@ img {
 }
 
 .question-text {
-  background-image: url(../Images/new-center/bg-text2.png);
+  background-image: url(../Images/new-center/bg-text.png);
   background-position: center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  padding: 14rem 4rem 2rem 4rem;
+  padding: 6rem 2rem 2rem 2rem;
+  width: 75%;
+  margin: auto;
 }
-
+.question-text-bg img {
+  transform: translate(20px, 85px);
+}
+.group-question {
+  transform: translate(0px, -100px);
+}
 .question-text p {
   color: #FFF;
   font-size: 16px;
@@ -416,7 +423,8 @@ img {
   }
 
   .question-banner {
-    margin-top: -2rem;
+    margin-top: -9rem;
+    z-index: 9;
   }
 
   .icon-bank img {
@@ -547,6 +555,7 @@ img {
   }
 
   .promotion-text {
+    width: 90%;
     font-size: 12px;
     padding: 20px;
   }
@@ -561,6 +570,16 @@ img {
   }
 
   .question-text {
-    padding: 15rem 30px 3rem 30px;
+    background-image: url(../Images/new-center/box-bg-mb.png);
+    padding: 7rem 32px 3rem 30px;
   }
+
+  .question-text-bg img {
+    transform: translate(8px, 70px);
+    width: 95%;
+    }
+
+    .group-question {
+      margin-top: 2rem;
+    }
 }

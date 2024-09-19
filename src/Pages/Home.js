@@ -56,6 +56,8 @@ import iconGamel3 from "../Images/new-center/icon-games/l3.png";
 
 import question from "../Images/new-center/banner-logo2.png";
 
+import textbg from "../Images/new-center/bg-text02.png";
+
 export default function Home() {
   const [linkLogin, setLinkLogin] = useState("https://lsm99center.l3t.lsmplay.com");
 
@@ -308,14 +310,19 @@ export default function Home() {
             </div>
           </div>
           <div className="question-section">
-            <div className="question-text">
-              <p>
-                ทำไมคุณควรตัดสินใจเลือกเรา ?<br /><br />
+            <div className="group-question">
+              <div className="question-text-bg">
+                <img src={textbg} alt="logo" />
+              </div>
+              <div className="question-text">
+                <p>
+                  ทำไมคุณควรตัดสินใจเลือกเรา ?<br /><br />
 
-                ประสบการณ์การเดิมพันที่หลากหลายและน่าตื่นเต้นลไม่ว่าคุณจะชอบเดิมพันกีฬา
-                คาสิโนสด สล็อต หรือเกมต่างๆแพลตฟอร์มของเรามีทุกสิ่งที่คุณต้องการ เรามีพันธมิตรกับผู้ให้บริการเกมชั้นนำระดับโลกทำให้คุณมั่นใจได้ว่าคุณจะได้รับ
-                ประสบการณ์การเล่นที่ลื่นไหล ภาพกราฟิกสวยงาม และฟีเจอร์พิเศษต่างๆ ที่จะทำให้คุณตื่นเต้นทุกครั้งที่เข้าสู่ระบบ
-              </p>
+                  ประสบการณ์การเดิมพันที่หลากหลายและน่าตื่นเต้นลไม่ว่าคุณจะชอบเดิมพันกีฬา
+                  คาสิโนสด สล็อต หรือเกมต่างๆแพลตฟอร์มของเรามีทุกสิ่งที่คุณต้องการ เรามีพันธมิตรกับผู้ให้บริการเกมชั้นนำระดับโลกทำให้คุณมั่นใจได้ว่าคุณจะได้รับ
+                  ประสบการณ์การเล่นที่ลื่นไหล ภาพกราฟิกสวยงาม และฟีเจอร์พิเศษต่างๆ ที่จะทำให้คุณตื่นเต้นทุกครั้งที่เข้าสู่ระบบ
+                </p>
+              </div>
             </div>
             <div className="question-banner">
               <img src={question} alt="banner" />
