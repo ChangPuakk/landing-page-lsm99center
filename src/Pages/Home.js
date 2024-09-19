@@ -91,7 +91,7 @@ export default function Home() {
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, [selectedCategory]); // ลดการใส่ `gameImages` ใน dependency เพื่อไม่ให้รันซ้ำ
+  }, [selectedCategory]);
 
   // Auto switch categories
   useEffect(() => {
@@ -104,7 +104,7 @@ export default function Home() {
     }, 5000);
 
     return () => clearInterval(intervalId);
-  }, []); // ไม่จำเป็นต้องใส่ `gameCategories` ใน dependency
+  }, []);
 
   const promotionTexts = [
     {
