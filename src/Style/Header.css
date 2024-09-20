@@ -1,19 +1,17 @@
 .wrapper.wrapper--bg {
-  background: url("/src/Images/Pc/ImgPc23.png") no-repeat;
-  /* background: url("/src/Images/Pc/center-desktop.png") no-repeat; */
+  background-image: url(../Images/new-center/BG-Desktop.gif);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   height: 100vh;
   max-width: 100%;
   background-position: center;
   position: fixed;
   width: 100%;
-  background-repeat: repeat;
   overflow-y: auto;
-  background-size: 100% 100%;
 }
 
 @font-face {
   font-family: "sukhumvitSetMedium";
-  /*Can be any text*/
   src: local("sukhumvitSet-Medium"),
     url("../Fonts/sukhumvit/ttf/SukhumvitSet-Medium.ttf") format("truetype");
 }
@@ -357,6 +355,9 @@ img.Icon--close--Menu {
 }
 
 @media screen and (max-width: 600px) {
+  .wrapper.wrapper--bg {
+    background-image: url(../Images/new-center/BG-MB-Dice.gif);
+  }
   .wrapper--section--nofi {
     width: 480px;
   }
@@ -390,17 +391,6 @@ img.Icon--close--Menu {
 
   .header--Mb {
     display: block;
-  }
-
-  .wrapper.wrapper--bg {
-    background: url("/src/Images/Mb/24.png") no-repeat;
-    /* background: url("/src/Images/Pc/center-mobile.png") no-repeat; */
-    height: 100vh;
-    max-width: 100%;
-    background-position: center;
-    width: 100%;
-    background-size: 100% 100%;
-    overflow-y: auto;
   }
 
   img.Bg--header--Mb {
